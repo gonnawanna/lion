@@ -9,4 +9,8 @@ public class Feature {
         this.featureIndex = featureIndex;
         this.featureValue = featureValue;
     }
+
+    public int getFeatureValue() {
+        return featureValue;
+    }
 }

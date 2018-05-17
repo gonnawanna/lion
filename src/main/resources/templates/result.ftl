@@ -7,8 +7,8 @@
     <#if giftSets?has_content>
         <ul>
             <#list giftSets as giftSet>
-                <li>Подарочный набор: ${giftSet.firstProductName} + ${giftSet.secondProductName} + ${giftSet.thirdProductName}.
-                Цена: ${giftSet.price} руб.</li>
+                <li>Подарочный набор: ${giftSet.firstProduct} + ${giftSet.secondProduct} + ${giftSet.thirdProduct}
+                <h3>Цена: ${giftSet.price} руб.</h3></li>
             </#list>
         </ul>
     <#else>
